@@ -1,6 +1,6 @@
-# bbq-splash-page
+## BBQ Splash
 
-A responsive webpage showcasing below CSS fundamentals
+A responsive webpage showcasing below CSS properties and my love for food 😉
 
 - Controlling elements using `flex`  
 - Making the page responsive using `@media` query  
@@ -11,10 +11,11 @@ A responsive webpage showcasing below CSS fundamentals
 
 What to expect when you decide to take a look and run index.html
 
-iPad view - Setting the min width at 675px to accomodate the fonts
+### iPad view 
+Setting the min width at 675px to accomodate the fonts
 
 <img src="Screenshots/mobileView.png" width='250px'>
 
-Desktop View
+### Desktop View
 
 <img src="Screenshots/desktopView.png" width='500px'>
