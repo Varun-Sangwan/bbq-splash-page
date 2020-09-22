@@ -2,11 +2,12 @@
 
 A responsive webpage showcasing below CSS fundamentals
 
-Flex
-Media Queries
-Transform
-Transition
-Text-Transform
+Flex  
+Media Queries  
+Transform  
+Transition  
+Text-Transform  
+Linear Gradient
 
 What to expect when you decide to take a look and run index.html
 
