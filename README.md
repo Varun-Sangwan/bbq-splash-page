@@ -2,16 +2,16 @@
 
 A responsive webpage showcasing below CSS fundamentals
 
-Flex  
-Media Queries  
-Transform  
-Transition  
-Text-Transform  
-Linear Gradient
+- Controlling elements using `flex`  
+- Making the page responsive using `@media` query  
+- Scaling the elements dynamically using `transform`  
+- Controlling the transformation time using `transition`  
+- Controlling text manipulation using `text-transform`
+- Making versatile background using `linear-gradient`
 
 What to expect when you decide to take a look and run index.html
 
-Mobile/iPad view (Setting the min width at 675px to accomodate the fonts
+iPad view - Setting the min width at 675px to accomodate the fonts
 
 <img src="Screenshots/mobileView.png" width='250px'>
 
