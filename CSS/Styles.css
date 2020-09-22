@@ -1,155 +1,155 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: s'Source Sans Pro', sans-serifans-serif;
-    font-size: 1rem;
-    color: #404040;
-    font-weight: 400;
-    text-align: center;
+  margin: 0;
+  font-family: s "Source Sans Pro", sans-serifans-serif;
+  font-size: 1rem;
+  color: #404040;
+  font-weight: 400;
+  text-align: center;
 }
 
 h1 {
-    font-size: 2.25rem;
-    font-weight: 300;
-    color: white;
-    margin:0;
+  font-size: 2.25rem;
+  font-weight: 300;
+  color: white;
+  margin: 0;
 }
 
 h1 + p {
-    color: #F18119;
-    font-weight: 900;
-    font-size: 1.3125rem;
-    text-transform: uppercase;
-    margin: 0;
+  color: #f18119;
+  font-weight: 900;
+  font-size: 1.3125rem;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 h2 {
-    font-size: 1.3125rem;
-    margin-bottom: 0;
-    font-weight: 900;
+  font-size: 1.3125rem;
+  margin-bottom: 0;
+  font-weight: 900;
 }
 
 h2 + p {
-    color: #F18119;
-    font-weight: 900;
-    text-transform: uppercase;
-    margin-top: 0;
+  color: #f18119;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: 0;
 }
 
 .top-text {
-    color: #F18119;
-    font-size: 0.625rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    order:-1;
-    border-top: 0.5em solid;
-    margin: 0;
-    padding-top: 1px;
-    border-image :linear-gradient(to lift,#FF713B,#FFA51D) 1; 
+  color: #f18119;
+  font-size: 0.625rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  order: -1;
+  border-top: 0.5em solid;
+  margin: 0;
+  padding-top: 1px;
+  border-image: linear-gradient(to left, #ff713b, #ffa51d) 1;
 }
 
 .fine-print {
-    font-size: 0.625rem;
-    letter-spacing: 1px;
+  font-size: 0.625rem;
+  letter-spacing: 1px;
 }
 
 strong {
-    font-weight:900;
+  font-weight: 900;
 }
 
 /*Layout*/
 .intro {
-    background-color: #404040;
-    background-image: url(../images/ribs.jpg);
-    background-size: cover;
-    background-blend-mode: multiply;
-    padding: 0 .50em 2em;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 50vh;
+  background-color: #404040;
+  background-image: url(../images/ribs.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  padding: 0 0.5em 2em;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 50vh;
 }
 
 .main-content {
-    padding: 2em 1em;
+  padding: 2em 1em;
 }
 
 .intro > *,
 .main-content > * {
-    max-height: 400px;
-    margin-left: auto;
-    margin-right: auto;
+  max-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .email-collector {
-    width: 80%;
-    max-width: 300px;
+  width: 80%;
+  max-width: 300px;
 }
 
 input {
-    font-family: inherit;
-    margin-bottom: .75em;
-    text-align: inherit;
-    padding: .25em;
-    border: 1px solid #404040;
+  font-family: inherit;
+  margin-bottom: 0.75em;
+  text-align: inherit;
+  padding: 0.25em;
+  border: 1px solid #404040;
 }
 
 input,
 .btn {
-    width: 100%;
-    border-radius: 3px;
-    transform: scale(1);
-    transition: transform 250ms;
+  width: 100%;
+  border-radius: 3px;
+  transform: scale(1);
+  transition: transform 250ms;
 }
 
 .btn {
-    display: inline-block;
-    padding: .5em 1.5em;
-    font-size: 0.625rem;
-    font-weight: 900;
-    letter-spacing: 1px;
-    border: 0;
-    cursor: pointer;
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  font-size: 0.625rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  border: 0;
+  cursor: pointer;
 }
 
 .btn-primary {
-    color: #ffffff;
-    background :linear-gradient(to right,#FF713B,#FFA51D);
+  color: #ffffff;
+  background: linear-gradient(to right, #ff713b, #ffa51d);
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
-input:focus  {
-    transform: scale(1.2);
+input:focus {
+  transform: scale(1.2);
 }
 
-@media (min-width:675px) {
-    body {
-        font-size: 1.125rem;
-        display: flex;
-    }
+@media (min-width: 675px) {
+  body {
+    font-size: 1.125rem;
+    display: flex;
+  }
 
-    h1 {
-        font-size: 3.5rem;
-    }
+  h1 {
+    font-size: 3.5rem;
+  }
 
-    h2,
-    h1 + p {
-        font-size: 1.75rem;
-    }
-    .intro,
-    .main-content {
-        width: 50%;
-        min-height: 100vh;
-    }
+  h2,
+  h1 + p {
+    font-size: 1.75rem;
+  }
+  .intro,
+  .main-content {
+    width: 50%;
+    min-height: 100vh;
+  }
 
-    .main-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
